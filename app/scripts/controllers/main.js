@@ -9,11 +9,7 @@
  */
 angular.module('mytodoApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.todos = [
-      'Item1',
-      'Item2',
-      'Item3'
-    ];
+    $scope.todos = [];
     $scope.addTodo = function () {
     	$scope.todos.push($scope.todo);
     	$scopr.todo = '';
