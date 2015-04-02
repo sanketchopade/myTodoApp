@@ -9,7 +9,7 @@
  */
 angular.module('mytodoApp')
   .controller('AboutCtrl', function ($scope) {
-    $scope.awesomeThings = [
+    $scope.todos = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
